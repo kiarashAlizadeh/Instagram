@@ -139,6 +139,27 @@ body{
         width: 170px;
     }
 
+    /* posts */
+.posts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    margin-top: 2PX;
+    text-align: center;
+
+
+}
+
+.posts .post{
+}    
+
+.posts .post img{
+    width: 130px;
+    height: 130px;
+}
     
 
 
