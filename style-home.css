@@ -35,9 +35,39 @@ body{
 
 .head-nav .right{
     font-size: 1.3em;
-
-    
+    display: flex;
 }
+
+.head-nav .right .activity{
+    position: relative;
+    margin-right: 15px;
+}
+.head-nav .right .activity .circle{
+    position: absolute;
+    top: 0px;
+    right: -2px;
+}
+.circle {
+    border-radius: 100%;
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border: 2px solid red;
+  }
+
+.head-nav .right .direct{
+    position: relative;
+}
+.head-nav .right .direct .number{
+    position: absolute;
+    top: -7px;
+    right: -4px;
+    font-size:0.4em;
+    background-color: red;
+    border-radius: 100%;
+    padding: 3px;
+}
+
 
 .head-nav .left .shape{
     font-size: 0.75em;
