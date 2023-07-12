@@ -56,6 +56,29 @@ body{
     object-fit: cover;
     }
 
+   /* posts */
+   .posts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin-top: -7PX;
+    text-align: center;
+
+
+}
+
+.posts .post{
+}    
+
+.posts .post img{
+    width: 130px;
+    height: 130px;
+    border-radius: 4px;
+}
+    
 
 
 /* footer */
