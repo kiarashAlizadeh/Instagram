@@ -27,8 +27,34 @@ body{
 /* head-nav */
 
 .head-nav{
-    
+    padding: 10px;
 }
+    /* search bar */
+    .form {
+    display: flex;
+    flex-direction: row;
+    }
+
+    .search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    }
+
+    .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+    }
+
+    .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    }
 
 
 
