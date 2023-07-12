@@ -54,49 +54,75 @@ body{
 
 }
 
-.profile .info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
+    /* info */
+    .profile .info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
 
-.profile .info .profile-image{
-    display: flex;
-    position: relative;
-}
+    .profile .info .profile-image{
+        display: flex;
+        position: relative;
+    }
 
-.profile .info .profile-image img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    .profile .info .profile-image img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
 
-}
+    }
 
-.profile .info .profile-image i{
-   position: absolute;
-   font-size: 1.3em;
-   color: #3498db;
-   bottom: 0px;
-   right: 0px;
-}
+    .profile .info .profile-image i{
+    position: absolute;
+    font-size: 1.3em;
+    color: #3498db;
+    bottom: 0px;
+    right: 0px;
+    }
 
-.profile .info .item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .profile .info .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.profile .info .item .number{
-    font-weight: bolder;
-}
+    .profile .info .item .number{
+        font-weight: bolder;
+    }
 
-.profile .info .item .text{
-    font-weight: bold;
-}
+    .profile .info .item .text{
+        font-weight: bold;
+    }
 
+
+    /* bio */
+
+    .bio{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .bio .id{
+        font-weight: bold;
+    }
+
+    .bio .threads-id{
+        text-align: center;
+        width: 80px;
+        background-color: #c7c5c5;
+        border-radius: 20%;
+        margin-top: 5px;
+    }
+
+    .bio .bio-text{
+        margin-top: 5px;
+
+    }
 
 /* footer */
 
