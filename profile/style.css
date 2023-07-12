@@ -124,6 +124,24 @@ body{
 
     }
 
+    /* edit-bio */
+
+    .edit-bio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .edit-bio .btn{
+        width: 170px;
+    }
+
+    
+
+
 /* footer */
 
 .footer {
