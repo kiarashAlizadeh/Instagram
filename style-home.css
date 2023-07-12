@@ -78,6 +78,51 @@ body{
     font-weight: bold;
 }
 
+/* story */
+.story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.story-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-main img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.story-main .my-story{
+    display: flex;
+    position: relative;
+}
+
+.story-main .my-story img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.story-main .my-story i{
+position: absolute;
+font-size: 1.3em;
+color: #3498db;
+bottom: 0px;
+right: 0px;
+}
+.story-name{
+    margin-top: 5px;
+    font-size: 0.8em;
+}
 
 
 /* footer */
